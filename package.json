@@ -1,0 +1,25 @@
+{
+  "name": "url_shortening_service",
+  "version": "1.0.0",
+  "description": "a url shortening tool that is really simple and basic, done for to validate my knowledge in Backend on https://roadmap.sh",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hawi19952/url_shortening_service.git"
+  },
+  "author": "Hussain Ali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hawi19952/url_shortening_service/issues"
+  },
+  "homepage": "https://github.com/hawi19952/url_shortening_service#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "kysely": "^0.27.4",
+    "mysql2": "^3.11.0"
+  }
+}
