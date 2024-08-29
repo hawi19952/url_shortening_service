@@ -2,9 +2,12 @@
   "name": "url_shortening_service",
   "version": "1.0.0",
   "description": "a url shortening tool that is really simple and basic, done for to validate my knowledge in Backend on https://roadmap.sh",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "develop": "node --env-file=.dev.env index.js",
+    "start": "node --env-file=.env index.js"
   },
   "repository": {
     "type": "git",
