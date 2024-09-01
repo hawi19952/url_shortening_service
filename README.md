@@ -3,6 +3,8 @@
 
 The URL Shortening Service is a Typescript / MySQL service that helps you generate unique short URL with allow you to get the count of short-URL clicks of all time.
 
+URL Shortening Service | An implementation of first project at Roadmap.sh Find *[Project Page Here](https://roadmap.sh/projects/url-shortening-service)*.
+
 ## Prerequisites
 
 This projects depends on a MySQL database with a simple native-password.
